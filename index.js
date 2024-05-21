@@ -11,10 +11,10 @@ const port = 4000; // Adjust port number as needed
 
 // Database credentials
 const pool = mysql.createPool({
-  host: 'localhost',
+  host: 'viaduct.proxy.rlwy.net',
   user: 'root',
-  password: '',
-  database: 'student_attendance'
+  password: 'FQVftBFIKcOAJFhQvSaRpNgIWDHlkAvf',
+  database: 'railway'
 });
 
 // Middleware to verify token
