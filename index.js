@@ -11,10 +11,11 @@ const port = 4000; // Adjust port number as needed
 
 // Database credentials
 const pool = mysql.createPool({
-  host: 'viaduct.proxy.rlwy.net',
-  user: 'root',
-  password: 'FQVftBFIKcOAJFhQvSaRpNgIWDHlkAvf',
-  database: 'railway'
+  host: 'bvm2trbk2dj0hy002lq0-mysql.services.clever-cloud.com',
+  user: 'u5m01wdyayoajblp',
+  password: 'u5m01wdyayoajblp',
+  database: 'u5m01wdyayoajblp'
+  
 });
 
 // Middleware to verify token
