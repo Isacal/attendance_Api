@@ -7,7 +7,7 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: false })); 
 app.use(bodyParser.json()); 
 app.use(express.json());
-const port = 4000; // Adjust port number as needed
+const port = 3306; // Adjust port number as needed
 
 // Database credentials
 const pool = mysql.createPool({
