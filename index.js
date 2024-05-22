@@ -126,7 +126,7 @@ app.delete('/students/:id', verifyToken, async (req, res) => {
 app.post('/login', async (req, res) => {
   const { userName,password } = req.body;
   try {
-    const [users] = await pool.query('SELECT * FROM Users WHERE userName = ?', [userName]);
+    const [users] = await pool.query('SELECT * FROM users WHERE userName = ?', [userName]);
     if (!users.length) {
       return res.status(404).send('User not found');
     }
