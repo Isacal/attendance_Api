@@ -13,8 +13,8 @@ const port = 3306; // Adjust port number as needed
 const pool = mysql.createPool({
   host: 'bvm2trbk2dj0hy002lq0-mysql.services.clever-cloud.com',
   user: 'u5m01wdyayoajblp',
-  password: 'u5m01wdyayoajblp',
-  database: 'u5m01wdyayoajblp'
+  password: 'vz8xg3FsMitPc6XGrTVO',
+  database: 'bvm2trbk2dj0hy002lq0'
   
 });
 
